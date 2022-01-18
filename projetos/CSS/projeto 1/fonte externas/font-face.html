@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes personalizadas</title>
+
+    <style>
+            @font-face {
+                font-family: 'Seagram';
+                src: url('fonts/Seagram\ tfb.ttf') format('opentype');
+            }
+                /* as vezes so ttf ou otf o navegador n entende
+
+                caso precise colocar outro modelo otf ou ttf depos do format colocar , url (  font  ) format ( formato ); url('Seagram tfb.ttf') format('opentype'), url ('Seagram tfb.otf') format('Truetype');
+                */
+
+                /* tipos de format()
+                -opentype
+                -truetype
+                -embedded-opentype
+                -truetype-aat
+                -svg
+                */
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h1{
+                font-family: 'Seagram';
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+                text-indent: 20px;
+            }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure exercitationem nobis! Nobis accusantium soluta laudantium quam vel iusto, facere incidunt enim, ut cumque id impedit asperiores quibusdam, debitis aperiam.</p>
+</body>
+</html>
